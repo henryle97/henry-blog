@@ -1,4 +1,76 @@
 baseURL = 'https://www.henrydev.info/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+
+title = 'Henry Dev'
 theme = 'paper'
+
+[params]
+  # color style
+  color = 'linen'
+
+  # header social icons
+  twitter = 'nanxiaobei'
+  github = 'nanxiaobei'
+  instagram = 'nan.xiaobei'
+  rss = true
+  
+  # home page profile
+  avatar = 'nanxiaobei@gmail.com'
+  name = 'Henry'
+  bio = 'Discover fresh context'
+
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  disablePostNavigation = true              # disable post navigation
+  monoDarkIcon = true                       # show monochrome dark mode icon
+  math = true                               # enable KaTeX math typesetting globally
+
+# needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
