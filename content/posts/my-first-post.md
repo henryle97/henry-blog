@@ -1,10 +1,13 @@
 +++
 title = 'My First Post'
 date = 2024-02-14T10:44:10+07:00
-draft = false
+categories = ['Blogging']
+series = ['My career']
 +++
 ## Introduction
 
-This is **bold** text, and this is *emphasized* text.
+Hey everyone,
 
-Visit the [Hugo](https://gohugo.io) website!
+I'm thrilled to kickstart my blogging journey with this post. This marks the beginning of what I hope will be an exciting exploration into my career and passions. As I navigate through various topics and experiences, I invite you to join me on this journey of growth and discovery.
+
+Stay tuned for more content coming your way!
