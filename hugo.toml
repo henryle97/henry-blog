@@ -1,4 +1,4 @@
 baseURL = 'https://www.henrydev.info/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
-theme = 'ananke'
+theme = 'paper'
